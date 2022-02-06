@@ -111,16 +111,14 @@ a {
 .darkmode {
     background-image: linear-gradient(rgb(12, 12, 12), rgb(29, 29, 29));
 
-    cursor: pointer;
     
     width: 100px;
     height: 50px;
 
     position: fixed;
-    float: right;
 
     bottom: 20px;
-    left: 1230px;
+    left: 1200px;
     right: 600px;
 
     border-radius: 70px;
@@ -131,10 +129,8 @@ a {
     color: whitesmoke;
 
     position: relative;
-    font-size:35px;
+    font-size:23px;
 
-    left: 16px;
+    text-align: center;
     bottom: 10px;
-
-    font-size: 22px;
 }
