@@ -1,0 +1,166 @@
+body {
+/*     position: fixed ; */
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 235, 235));
+}
+
+.menu {
+/*     background-color: rgb(228, 228, 228); */
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.menu li:hover {
+    background-color: rgb(56, 56, 56);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.xandinho ul li {
+    font-family: 'Montserrat', sans-serif;
+    color: #0c0c0c;
+    list-style: none;
+    margin: 0px;
+    padding: 15px;
+    position: relative;
+    bottom: 28px;
+    display: inline-block;
+    font-size: 27px;
+    border-radius: 35px;
+}
+
+.xandinho li:hover {
+    color: #ffffff;    
+}
+
+.xandinho {
+    float: right;
+}
+
+.texto-menu {
+    font-family: 'Montserrat', sans-serif;
+
+    color: rgb(228, 152, 38);
+    margin-left: 15px;
+    
+}
+
+.imagem-fundo img {
+    width: 680px;
+    
+/*     margin-top: 75px;
+    margin-left: 590px;
+    margin-bottom: 0; */
+
+    position: relative;
+    left: 610px;
+    top: 50px;
+}
+
+.texto-centro {
+/*     background-color: rgb(228, 228, 228); */
+    font-family: 'Montserrat', sans-serif;
+    color: #585856;
+    
+    
+    position: relative;
+    bottom: 400px;
+    margin: 0px 200px 0px 200px
+
+}
+
+.texto-centro h1 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    
+}
+
+.texto-centro h4 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+.botao {
+    background-color: rgb(228, 152, 38);
+    border-radius: 20px;
+
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+
+    width: 300px;
+    height: 70px;
+
+    transition-duration: 200ms;
+}
+
+.botao:hover {
+    background-color: rgb(190, 127, 31);
+    
+    transition: 200ms;
+}
+
+a {
+    text-decoration: none !important
+}
+
+.botao p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+
+    position: relative;
+    font-size:35px;
+
+    left: 65px;
+    top: 12px;
+}
+
+.darkmode {
+    background-color: #0c0c0c;
+
+    
+    width: 100px;
+    height: 50px;
+
+    position: fixed;
+
+    bottom: 13px;
+    left: 1237px;
+    right: 600px;
+
+    border-radius: 40%;
+
+    transition-duration: 280ms;
+}
+
+.darkmode:hover {
+    background-color: rgb(0, 0, 0);
+
+    width: 100px;
+    height: 50px;
+
+    border-radius: 50%;    
+
+    transition: 130ms;
+}
+
+.darkmode p {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+
+    position: relative;
+    font-size:23px;
+
+    text-align: center;
+    bottom: 12px;
+
+    transition-duration: 280ms;
+}
+
+.darkmode p:hover {
+    text-shadow: 0 0 6px #8f8f8f;
+}

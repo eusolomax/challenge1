@@ -1,0 +1,172 @@
+body {
+    /*     position: fixed ; */
+        background-color: rgb(29, 21, 21);
+    }
+    
+    .menu {
+    /*     background-color: rgb(228, 228, 228); */
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    .menu li:hover {
+        background-color: #c22121;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+    
+    .xandinho ul li {
+        font-family: 'Montserrat', sans-serif;
+        color: #ebebeb;
+        list-style: none;
+        margin: 0px;
+        padding: 15px;
+        position: relative;
+        bottom: 28px;
+        display: inline-block;
+        font-size: 27px;
+        border-radius: 35px;
+    }
+
+    .xandinho li:hover {
+        color: #ffffff;
+    }
+    
+    .xandinho {
+        float: right;
+    }
+    
+    .texto-menu {
+        font-family: 'Montserrat', sans-serif;
+    
+        color: #ff3b3b;
+        margin-left: 15px;
+        
+    }
+    
+    .imagem-fundo img {
+        width: 680px;
+        
+    /*     margin-top: 75px;
+        margin-left: 590px;
+        margin-bottom: 0; */
+    
+        position: relative;
+        left: 610px;
+        top: 50px;
+
+        box-shadow: 0 0 25px rgb(54, 13, 13);
+    }
+    
+    .texto-centro {
+    /*     background-color: rgb(228, 228, 228); */
+        font-family: 'Montserrat', sans-serif;
+        color: #e04343;
+        
+        
+        position: relative;
+        bottom: 400px;
+        margin: 0px 200px 0px 200px
+    
+    }
+    
+    .texto-centro h1 {
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 60px;
+
+        text-shadow: 0px 0px 5px #1e1e1e;
+        
+    }
+    
+    .texto-centro h4 {
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+
+        text-shadow: 0px 0px 5px #1e1e1e;
+        
+    }
+    
+    .botao {
+        background-color: #c22121;
+        border-radius: 20px;
+    
+        position: relative;
+        bottom: 400px;
+        left: 200px;
+    
+        width: 300px;
+        height: 70px;
+
+        transition-duration: 200ms;
+    }
+
+    .botao:hover {
+        background-color: #a51c1c;
+        
+        transition: 200ms;
+    }
+    
+    a {
+        text-decoration: none !important
+    }
+    
+    .botao p {
+        font-family: 'Montserrat', sans-serif;
+        color: #e7e7e7;
+    
+        position: relative;
+        font-size:35px;
+    
+        left: 65px;
+        top: 12px;
+    }
+    
+    .darkmode {
+        background-color: #0c0c0c;
+    
+        
+        width: 100px;
+        height: 50px;
+    
+        position: fixed;
+    
+        bottom: 13px;
+        left: 1237px;
+        right: 600px;
+    
+        border-radius: 40%;
+    
+        transition-duration: 280ms;
+    }
+    
+    .darkmode:hover {
+        background-color: rgb(0, 0, 0);
+    
+        width: 100px;
+        height: 50px;
+    
+        border-radius: 50%;    
+    
+        transition: 130ms;
+    }
+    
+    .darkmode p {
+        font-family: 'Montserrat', sans-serif;
+        color: whitesmoke;
+    
+        position: relative;
+        font-size:23px;
+    
+        text-align: center;
+        bottom: 12px;
+    
+        transition-duration: 280ms;
+    }
+    
+    .darkmode p:hover {
+        text-shadow: 0 0 6px #8f8f8f;
+    }
