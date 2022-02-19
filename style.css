@@ -120,6 +120,7 @@ a {
 }
 
 .darkmode {
+    z-index: 1;
     background-color: #0c0c0c;
 
     
@@ -129,12 +130,14 @@ a {
     position: fixed;
 
     bottom: 13px;
-    left: 1237px;
-    right: 600px;
+    /* left: 1237px;
+    right: 600px; */
+    left: 92%;
 
     border-radius: 40%;
 
     transition-duration: 280ms;
+
 }
 
 .darkmode:hover {
@@ -164,3 +167,36 @@ a {
 .darkmode p:hover {
     text-shadow: 0 0 6px #8f8f8f;
 }
+
+.darkmodeballtext {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 0, 0);
+
+    position: fixed;
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-left: 43px;
+    z-index: 2px;
+
+    transition-duration: 280ms;
+}
+
+
+
+
+
+
+
+/* @media screen and (max-width: 803px) {
+    .darkmode {
+    top: 9px;
+    left: 1%;
+    border-radius: 700%;
+    width: 30px;
+    height: 30px;    
+    }
+
+    .darkmode p {
+        display: none;
+    }
+} */

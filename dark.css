@@ -126,6 +126,7 @@ body {
     }
     
     .darkmode {
+        z-index: 1;
         background-color: #0c0c0c;
     
         
@@ -135,12 +136,14 @@ body {
         position: fixed;
     
         bottom: 13px;
-        left: 1237px;
-        right: 600px;
+        /* left: 1237px;
+        right: 600px; */
+        left: 92%;
     
         border-radius: 40%;
     
         transition-duration: 280ms;
+    
     }
     
     .darkmode:hover {
